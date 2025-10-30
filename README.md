@@ -1,15 +1,11 @@
 # TrialMatch AI - Healthcare Clinical Trial Matching Dashboard
-
 > An intelligent multi-agent system for matching patients to clinical trials using machine learning, pattern discovery, and Fetch.AI's decentralized agent framework.
+> 🏆 Regeneron Healthcare Track Runnerup Winner
 
 ![Platform](https://img.shields.io/badge/Platform-React%20%7C%20Python-blue)
 ![Agents](https://img.shields.io/badge/Agents-Fetch.AI%20uAgents-green)
 ![ML](https://img.shields.io/badge/ML-UMAP%20%7C%20HDBSCAN-orange)
 ![Status](https://img.shields.io/badge/Status-Active-success)
-
-**Originally exported from**: [Figma Healthcare Dashboard Design](https://www.figma.com/design/Xf0VCWDvcZZiJoNNbCV2Hm/Healthcare-Dashboard-Design)
-
----
 
 ## 🚀 Quick Start (3 Commands)
 
@@ -24,8 +20,6 @@ cd frontend && npm run dev
 ```
 
 **That's it!** Your multi-agent system is now running with 1000 patients and 100 clinical trials.
-
----
 
 ## 📋 Table of Contents
 
@@ -43,8 +37,6 @@ cd frontend && npm run dev
 - [Project Structure](#project-structure)
 - [Technologies](#technologies)
 - [Development](#development)
-
----
 
 ## 🎯 Overview
 
@@ -77,8 +69,6 @@ A **multi-agent AI system** where 8 specialized agents collaborate:
 8. **Orchestrate everything** through a coordinator agent
 
 Result: **Weeks → Seconds** for trial recruitment workflows.
-
----
 
 ## 🌟 What Makes This Special
 
@@ -127,8 +117,6 @@ Built with React + shadcn/ui:
 - 🕸️ **Agent Control** - Hexagon network with live agent logs
 - 📋 **Patient Matches** - Sortable table with match scores
 - 🗺️ **Site Selection** - Geographic visualization and capacity
-
----
 
 ## 🤖 The Multi-Agent System
 
@@ -299,8 +287,6 @@ await ctx.send(sender, ChatAcknowledgement(acknowledged_msg_id=msg.msg_id))
 - ✅ **Local fallback** - Uses AgentRegistry for development
 - ✅ **No message loops** - Fixed in latest version!
 
----
-
 ## 🛠️ Installation
 
 ### Prerequisites
@@ -372,8 +358,6 @@ cd frontend
 npm run dev
 # Should open browser at localhost:3000
 ```
-
----
 
 ## 🎮 Running the System
 
@@ -503,8 +487,6 @@ pkill -f "python -m agents"
 pkill -f "vite"
 ```
 
----
-
 ## 📊 Dashboard Features
 
 ### 1. Dashboard (Home)
@@ -594,8 +576,6 @@ pkill -f "vite"
 |------|----------|-------------------|----------|-------------------|
 | UCLA Medical | LA, CA | 87% | High | 12.3 miles avg |
 | Stanford | Palo Alto, CA | 81% | Medium | 28.5 miles avg |
-
----
 
 ## 🏗️ Architecture Deep Dive
 
