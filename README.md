@@ -1,6 +1,7 @@
 # TrialMatch AI - Healthcare Clinical Trial Matching Dashboard
+🏆 **Regeneron Healthcare Track Runner-Up**
+
 > An intelligent multi-agent system for matching patients to clinical trials using machine learning, pattern discovery, and Fetch.AI's decentralized agent framework.
-> 🏆 Regeneron Healthcare Track Runnerup Winner
 
 ![Platform](https://img.shields.io/badge/Platform-React%20%7C%20Python-blue)
 ![Agents](https://img.shields.io/badge/Agents-Fetch.AI%20uAgents-green)
